@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container{
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-namaste-gesture_23-2147694900.jpg?w=740&t=st=1701094190~exp=1701094790~hmac=dcb1f0232e482c8870a23e4ea5b3f7a20a3824b9fd9b4d671b93105bf9724c68");
+    height: 100vh;
+    background-size: cover;
+}
+.namaste-card{
+    background-color: #e60e23;
+    text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 10px;
+}
+.button{
+    background-color: #37eb34;
+    height: 36px;
+    width: 138px;
+    font-family: "lobster";
+    font-size: 17px;
+    border-radius: 12px;
+    border-width: 0px;
+}
+.main-heading{
+    font-family: "bree serif";
+    font-size: 40px;
+    font-weight: normal;
+    color: #ebb134;
+}
+.paragraph{
+    font-size: 25px;
+    color: white;
+    font-family: "caveat";
+}
+.indianfestival-bgcontainer{
+    background-image: url("https://img.freepik.com/free-vector/decorative-happy-diwali-festival-background-with-text-space_1017-34090.jpg?w=740&t=st=1701784765~exp=1701785365~hmac=930eb66bf01dec8b1ccd9816799dd72d90409b616317df10468231b7f4e41efb");
+    background-size: cover;
+    padding:5px;
+}
+.indianfestival-heading{
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 28px;
+    padding: 28px;
+    padding-bottom:20px;
+}
+.indianfestival-card{
+    background-color: white;
+    border-radius:8px;
+    padding:10px;
+    margin:23px;
+}
+.indianfestival-card-heading{
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 23px;
+    color: #0f0e34;
+}
+.indianfestival-card-description{
+    font-family:"roboto";
+    color:#6c6b70;
+    font-size:13px;
+}
+.indianfestival-card-image{
+    height:100px;
+    width:80px;
+}
+.sankranti-bg-container{
+    background-image: url("https://img.freepik.com/free-photo/clear-yellow-wall_1258-105.jpg?1&w=360&t=st=1702559297~exp=1702559897~hmac=6e17a7d4ea23afbd06afdd71826ee211f145b7070ae0b92f7d4f7652c08bf589");
+    background-size: cover;
+    height: 120vh;
+}
+.sankranti-main-heading{
+    color: rgb(84, 9, 9);
+    font-family: "lobster";
+    text-align: center;
+    padding-top: 20px;
+}
+.sankrati-detailed-card{
+    background-color: white;
+    margin:30px;
+}
+.detailed-card-padding{
+    padding: 20px;
+}
+.detailed-card-heading{
+    font-size: 30px;
+    font-family: "roboto";
+    font-weight: bold;
+    font-style: italic;
+}
+.detailed-card-description{
+    font-size: 15px;
+    font-family: "roboto";
+    font-style: italic;
+}
