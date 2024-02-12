@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="indianfestivalwebsiteintegration.css">
+</head>
+<body>
+    <div id="sectionHomescreen">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="namaste-card">
+                <h1 class="main-heading">Indian Festivals</h1>
+                <p class="paragraph">Festivals are the oldest 
+                                    rituals and traditions our 
+                                     countrymen follow to pay tribute 
+                                    to the almighty gods and goddesses</p>
+                <button class="button" onclick="display('sectionIndianfestivalcard')">More Details </button>
+            </div>
+        </div> 
+    </div>
+    <div id="sectionIndianfestivalcard">
+        <div class="indianfestival-bgcontainer" >
+            <h1 class="indianfestival-heading">About Indian Festivals</h1>
+            <div class="indianfestival-card d-flex flex-row" onclick="display('sectionSankratidetiledcard')" >
+                <div>
+                    <h1 class="indianfestival-card-heading">
+                        Sankrati Festival
+                    </h1>
+                    <p class="indianfestival-card-description">
+                        Sankranti is a Hindu harvest festival 
+                        celebrated across India marking the 
+                        transition of the sun into the zodiac 
+                        sign of Capricorn, symbolizing new 
+                        beginnings and the end of the winter 
+                        solstice.
+                    </p>
+                </div>
+                <img src="https://img.freepik.com/premium-vector/happy-sankranti-pongal-gangireddu-decorated-ox-also-known-as-basava-with-flying-kite_560226-653.jpg?w=740" class="indianfestival-card-image" class="indianfestival-card-image"/>
+            </div>
+            <div class="indianfestival-card d-flex flex-row">
+                <div>
+                    <h1 class="indianfestival-card-heading">
+                        Dewali Festival
+                    </h1>
+                    <p class="indianfestival-card-description">
+                        Diwali, also known as the Festival of 
+                        Lights, is a significant Hindu festival
+                         celebrated with lamps, fireworks, and 
+                         the exchange of sweets, symbolizing the 
+                         triumph of light over darkness and good 
+                         over evil.
+                    </p>
+                </div>
+                <img src="https://img.freepik.com/free-vector/illustration-burning-diya-happy-diwali-holiday-background_1035-20047.jpg?w=740&t=st=1701784177~exp=1701784777~hmac=ce826b8226353c75c4143ae670c5ff5e97bb24cf25f488e2d3975b096bb18f33" class="indianfestival-card-image"/>
+            </div>
+            <div class="indianfestival-card d-flex flex-row">
+                <div>
+                    <h1 class="indianfestival-card-heading">
+                        Dussehra Festival
+                    </h1>
+                    <p class="indianfestival-card-description">
+                        Dussehra, also known as Vijayadashami,
+                         is a Hindu festival that commemorates 
+                         the victory of good over evil, 
+                         particularly the triumph of Lord 
+                         Rama over the demon king Ravana, 
+                         symbolized by the burning of effigies
+                          and cultural performances.
+                    </p>
+                </div>
+                <img src="https://img.freepik.com/free-vector/illustration-lord-rama-killing-ravana-happy-dussehra-festival-background_1035-25005.jpg?w=740&t=st=1701786943~exp=1701787543~hmac=300263775fb48bf6a097922379603e7cca9ac05926a0144e771909eff9e3f960" class="indianfestival-card-image"/>
+            </div>
+            <div class="indianfestival-card d-flex flex-row">
+                <div>
+                    <h1 class="indianfestival-card-heading">
+                        Ramzan Festival
+                    </h1>
+                    <p class="indianfestival-card-description">
+                        Ramzan, also known as Ramadan, 
+                        is an Islamic holy month marked
+                         by fasting from dawn to sunset,
+                          devoted to prayer, reflection, 
+                          and community, culminating in 
+                          the celebration of Eid al-Fitr.
+                    </p>
+                </div>
+                <img src="https://img.freepik.com/free-vector/realistic-three-dimensional-ramadan-kareem-illustration_52683-57837.jpg?w=996&t=st=1701787202~exp=1701787802~hmac=f7b2b3c7114a2c71176cee1a501e8a56ac5a4e80d5c895dd2a5f5ade57bc3d21" class="indianfestival-card-image"/>
+            </div> 
+            <button class="btn btn-dark" onclick="display('sectionHomescreen')">Back</button> 
+        </div>  
+        
+    </div>
+    <div id="sectionSankratidetiledcard">
+        <div class="sankranti-bg-container">
+            <h1 class="sankranti-main-heading">Makara Sankranti Festival</h1>
+            <div class="sankrati-detailed-card">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gUWEtMlRc6E?rel=0" allowfullscreen></iframe>
+              </div>
+                <div class="detailed-card-padding">
+                    <h1 class="detailed-card-heading">About Sankranti</h1>
+                    <p class="detailed-card-description">
+                        Sankranti, a Hindu festival, celebrates the transition of the sun into Makara (Capricorn). It marks the end of the winter solstice and the onset of longer days.
+    
+                        Observed in various parts of India, it's known by different names such as Pongal in Tamil Nadu, Makar Sankranti in North India, and Magh Bihu in Assam.
+    
+                        People rejoice by flying kites, preparing traditional sweets like tilgul (sesame and jaggery), and exchanging greetings and gifts.
+    
+                        Devotees take holy dips in rivers like the Ganges, praying for prosperity and purifying their sins.
+    
+                        It signifies the harvest festival, honoring the land's bounty and expressing gratitude to nature for a successful crop yield.
+    
+                        Sankranti holds cultural significance, symbolizing new beginnings, unity among communities, and the triumph of good over evil.
+                    </p>
+                </div>
+            </div>
+            <button class="btn btn-dark ml-4" onclick="display('sectionIndianfestivalcard')">Back</button> 
+            <button class="btn btn-danger ml-4" onclick="display('sectionHomescreen')">Home Screen</button> 
+        </div>
+    </div>
+    
+</body>
+</html>
